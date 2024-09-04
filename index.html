@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>NinjaWeather</title>
+    <link rel="stylesheet" href="style.css" >
+  </head>
+  <body onload="fetchSetWeather()">
+    <!--Nav Setup-->
+    <div class="nav">
+      <h1>NinjaWeather</h1>
+
+      <h3>@cohort-ShawnC locations</h3>
+    </div>
+
+    <div class="banner1">
+      <h2>Current weather for ninja's secret locations</h2>
+      <h4>For additional super secret ninja locations use search below</h4>
+    </div>
+    <!--Test-->
+    <div class="banner2">
+    <input type="text" id="cityInput" name="city" placeholder="Input City">
+    <button class="btn" onclick="fetchWeather()">Submit</button>
+    </div>
+    <div class="weather"></div>
+
+    <!--Lower content area-->
+    <div class="row1">
+      <div class="col" id="city1">
+       
+      </div>
+      <div class="col" id="city2">
+        
+      </div>
+      <div class="col" id="city3">
+        
+      </div>
+      <div class="col" id="city4">
+        
+      </div>
+      <div class="col" id="city5">
+        
+      </div>
+    </div>
+    <div class="row1">
+      <div class="col" id="city6">
+        
+      </div>
+      <div class="col" id="city7">
+        
+      </div>
+      <div class="col" id="city8">
+        
+      </div>
+      <div class="col" id="city9">
+        
+      </div>
+      <div class="col" id="city10">
+        
+      </div>
+    </div>
+<!--    <div class="srow">
+      <div class="col">
+        <h2>City</h2>
+        <img class="icon" src="assets/some_sun.png" alt="sun" />
+        <p class="temperatures">
+          <span class="time" id="time11">27</span>
+          <span class="temp" id="temp11">19</span>
+        </p>
+      </div>
+      <div class="col">
+        <h2>City</h2>
+        <img class="icon" src="assets/some_sun.png" alt="sun" />
+        <p class="temperatures">
+          <span class="time" id="time12">27</span>
+          <span class="temp" id="temp12">19</span>
+        </p>
+      </div>
+    </div>-->
+
+<h6>Powered by Weatherbit API * Weather icons courtesy of Weatherbit.io</h6>
+
+<!-- Privacy Wall
+  <div id="privacy">
+      <h1>Click only if you pinky promise not to divulge any of our ninja's secret locations!!</h1>
+      <button onclick="remove('#privacy')" class="btn">I Promise</button>
+  </div>   -->
+
+ 
+
+    <script src="script.js"></script>
+  </body>
+</html>
